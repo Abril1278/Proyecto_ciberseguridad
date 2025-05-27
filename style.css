@@ -1,3 +1,107 @@
+
 body {
-    background-color:antiquewhite;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e6f4fa;
+    color: #333;
+    line-height: 1.6;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    padding: 20px;
+}
+
+.intro {
+            padding: 30px;
+            text-align: center;
+}
+
+
+header {
+    background-color: #003366;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    color: white;
+    font-family: serif;
+    font-size: 60px;
+    margin-bottom: 10px;
+}
+
+
+header a {
+    background-color: #0059b3;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 30px;
+    font-weight: bold;
+    margin: 0 10px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+header a:hover {
+    background-color: #0077e6;
+    transform: translateY(-2px);
+}
+
+
+h1, h2, h3 {
+    text-align: center;
+    color: #003366;
+}
+
+header h3 {
+	color: white;
+}
+
+
+h3 {
+    margin: 0 auto 30px;
+    max-width: 900px;
+    font-weight: normal;
+}
+
+
+.equipo {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            padding: 20px;
+        }
+        .miembro {
+            width: 250px;
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            margin: 10px;
+            text-align: center;
+            padding: 20px;
+        }
+        .miembro img {
+            width: 100%;
+            height: auto;
+            border-radius: 50%;
+        }
+        footer {
+            text-align: center;
+            padding: 15px;
+            background-color: #0a0a23;
+            color: white;
+            margin-top: 20px;
+        }
+
+
+@media (max-width: 768px) {
+    h1, h2, h3 {
+        font-size: 1.2em;
+        padding: 0 10px;
+    }
+
 }
